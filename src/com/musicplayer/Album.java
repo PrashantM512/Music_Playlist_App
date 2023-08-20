@@ -27,7 +27,7 @@ public class Album  {
 	public boolean addSong(String title,double duration) {
 		if(findSong(title)==null) {
 			songs.add(new Song(title,duration));
-			System.out.println("The song with title "+title+" is added !!!");
+			//System.out.println("The song with title "+title+" is added !!!");
 			return true;
 		}else {
 			System.out.println("The song with title "+title+" is Already exists !!!");
